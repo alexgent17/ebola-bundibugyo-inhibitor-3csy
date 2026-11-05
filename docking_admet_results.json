@@ -1,0 +1,65 @@
+{
+  "target": {
+    "protein_name": "Bundibugyo Ebola virus Glycoprotein",
+    "pdb_id": "3CSY",
+    "binding_site": "Receptor-Binding Site (RBS)",
+    "key_residues": [
+      "ASN 40",
+      "ILE 38",
+      "LEU 184",
+      "PRO 187",
+      "MET 548"
+    ]
+  },
+  "lead_candidate": {
+    "chemical_name": "N-(4-fluorophenyl)-1,3-benzodioxole-5-carboxamide",
+    "smiles": "O=C(Nc1ccc(F)cc1)c1ccc2c(c1)OCO2",
+    "formula": "C14H10FNO3",
+    "molecular_weight_g_mol": 259.23
+  },
+  "docking_results": {
+    "software": "AutoDock Vina",
+    "binding_affinity_kcal_mol": -5.60,
+    "key_interactions": [
+      {
+        "residue": "ASN 40",
+        "interaction_type": "Hydrogen bonding / dipole-dipole",
+        "distance_angstroms": 3.13
+      },
+      {
+        "residue": "PRO 187",
+        "interaction_type": "Hydrophobic contact",
+        "distance_angstroms": 3.20
+      },
+      {
+        "residue": "LEU 184",
+        "interaction_type": "Van der Waals packing",
+        "distance_angstroms": 3.27
+      },
+      {
+        "residue": "ILE 38",
+        "interaction_type": "Van der Waals packing",
+        "distance_angstroms": 3.39
+      }
+    ]
+  },
+  "admet_profile": {
+    "source": "SwissADME",
+    "lipinski_violations": 0,
+    "consensus_logp": 2.83,
+    "gi_absorption": "High",
+    "bbb_permeant": true,
+    "pgp_substrate": false,
+    "cyp_inhibition": {
+      "cyp1a2": true,
+      "cyp2c19": true,
+      "cyp2c9": false,
+      "cyp2d6": true,
+      "cyp3a4": false
+    },
+    "bioavailability_score": 0.55,
+    "synthetic_accessibility": 2.04,
+    "pains_alerts": 0,
+    "brenk_alerts": 0
+  }
+}
